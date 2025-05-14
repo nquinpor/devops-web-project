@@ -35,7 +35,7 @@ pipeline {
         }
         stage('Push to Docker Hub') {
           steps {
-            sh 'docker push nquinpor/devops-web-project:v1'
+            sh 'docker push nquintanal/devops-web-project:v1'
           }
         }
     }
